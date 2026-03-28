@@ -6,12 +6,12 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 </head>
 <body>
-  <div class="jumbotron" style="background-color:pink">
+  <div class="jumbotron" style="background-color:red">
      <h1 class="text-center">Welcome to</h1>
       <img src="http://www.learntek.org/wp-content/uploads/2017/08/jenkins_image.png" alt="Spidertocat"
            class="img-responsive center-block" style="width:250px"/>
-      <h1 class="text-center">welcome to the CI/CD automation</h1>
-      <h2 class="text-center">Welcome from devops academy</h2>
+      <h1 class="text-center">welcome to the CI/CD pieline</h1>
+      <h2 class="text-center">Welcome devops worlds</h2>
       
 <center><img src="http://www.infinitotek.com/wp-content/uploads/2018/02/dev-ops-header-1.jpg" width=50% hight=50%>
  </center> </div>
