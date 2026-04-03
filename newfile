@@ -1,0 +1,13 @@
+{
+  "name": "ci-cd-node-app",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "npx serve -s build",
+    "build": "npx parcel build index.html --dist-dir build"
+  },
+  "dependencies": {
+    "serve": "^14.2.0",
+    "parcel": "^2.9.3"
+  }
+}
