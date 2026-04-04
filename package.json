@@ -1,7 +1,3 @@
-{
-  "name": "demo-webapp",
-  "version": "1.0.0",
-  "scripts": {
-    "build": "mkdir build && copy index.html build\\index.html"
-  }
+"scripts": {
+    "build": "mkdir build && xcopy /E /I /Y *.html build\\ && xcopy /E /I /Y *.css build\\ && xcopy /E /I /Y *.js build\\"
 }
