@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Demo Web App",
   "scripts": {
-    "build": "mkdir build && copy index.html build\\index.html",
+    "build": "if not exist build mkdir build && copy /Y index.html build\\index.html",
     "start": "node server.js"
   },
   "dependencies": {}
