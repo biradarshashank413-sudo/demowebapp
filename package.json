@@ -2,6 +2,6 @@
   "name": "demo-webapp",
   "version": "1.0.0",
   "scripts": {
-    "build": "echo Building app... && mkdir build && copy index.html build\\"
+    "build": "mkdir build && copy index.html build\\index.html"
   }
 }
