@@ -1,0 +1,10 @@
+plugins {
+    id 'base'
+}
+
+task copyToNginx(type: Copy) {
+    from 'src'
+    into 'build/output'
+}
+
+build.dependsOn copyToNginx
